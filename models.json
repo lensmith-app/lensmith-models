@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "models": [
+    {
+      "id": "face-paint",
+      "name": "Face Paint",
+      "description": "Soft painted cartoon, made for faces",
+      "file": "face-paint.onnx",
+      "bytes": 8697222,
+      "sha256": "50b22949050d8dfdad413c358bbb60272c6363699e1cea0d77c6e1a0e19c7e03",
+      "multiple": 4
+    },
+    {
+      "id": "paprika",
+      "name": "Paprika",
+      "description": "Bright anime-film colours",
+      "file": "paprika.onnx",
+      "bytes": 8697222,
+      "sha256": "25972b869a9a66e928d07f1810598ac95bd7d63395edabc7dd20d45d1dd4ed8b",
+      "multiple": 4
+    },
+    {
+      "id": "celeba",
+      "name": "Anime Portrait",
+      "description": "Clean anime portrait look",
+      "file": "celeba.onnx",
+      "bytes": 8697222,
+      "sha256": "0e9f0f91251c989f401ec8818ef88adfbd74767383ae9d7c18cc5b23ff3aec1c",
+      "multiple": 4
+    }
+  ]
+}
