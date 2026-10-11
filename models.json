@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "models": [
     {
       "id": "face-paint",
@@ -27,6 +27,84 @@
       "bytes": 8697222,
       "sha256": "0e9f0f91251c989f401ec8818ef88adfbd74767383ae9d7c18cc5b23ff3aec1c",
       "multiple": 4
+    },
+    {
+      "id": "cartoon-3d",
+      "name": "3D Cartoon",
+      "description": "Animated-movie 3D character",
+      "type": "portrait",
+      "file": "dct-3d-head.onnx",
+      "bytes": 5887362,
+      "sha256": "2015009199907b59c01033eed7c1f970fb90d98f724edc17df5b7e0ff5069cad",
+      "head": {
+        "file": "dct-3d-head.onnx",
+        "bytes": 5887362,
+        "sha256": "2015009199907b59c01033eed7c1f970fb90d98f724edc17df5b7e0ff5069cad"
+      },
+      "bg": {
+        "file": "dct-3d-bg.onnx",
+        "bytes": 5887321,
+        "sha256": "3991bfc5cbb350db4a5abd96078b44d81de3f197eb29679a56e0d66df7dacb32"
+      },
+      "mask": {
+        "file": "dct-mask.png",
+        "bytes": 15383,
+        "sha256": "db055f79338dc3345cfbaf64f54ebc92abbdffa340edb0b190816c662e09300d"
+      },
+      "box": 288,
+      "ratio": 0.75
+    },
+    {
+      "id": "cartoon-handdrawn",
+      "name": "Hand-drawn",
+      "description": "Soft illustrated character",
+      "type": "portrait",
+      "file": "dct-handdrawn-head.onnx",
+      "bytes": 5887563,
+      "sha256": "14375d26746feceacc74bf7aeab25fec92468931839593f3ad459740a8617f94",
+      "head": {
+        "file": "dct-handdrawn-head.onnx",
+        "bytes": 5887563,
+        "sha256": "14375d26746feceacc74bf7aeab25fec92468931839593f3ad459740a8617f94"
+      },
+      "bg": {
+        "file": "dct-handdrawn-bg.onnx",
+        "bytes": 5887601,
+        "sha256": "b45a5a55c0181fbcc53a5201e2ad531875120eb8b46475864fa30e51b1661542"
+      },
+      "mask": {
+        "file": "dct-mask.png",
+        "bytes": 15383,
+        "sha256": "db055f79338dc3345cfbaf64f54ebc92abbdffa340edb0b190816c662e09300d"
+      },
+      "box": 288,
+      "ratio": 0.75
+    },
+    {
+      "id": "cartoon-anime",
+      "name": "Anime",
+      "description": "Full anime redraw",
+      "type": "portrait",
+      "file": "dct-anime-head.onnx",
+      "bytes": 5887575,
+      "sha256": "4ca6e1c74d8748cec5fe325d77bb0dc4454a6b1a163337447c39fa2006c336bd",
+      "head": {
+        "file": "dct-anime-head.onnx",
+        "bytes": 5887575,
+        "sha256": "4ca6e1c74d8748cec5fe325d77bb0dc4454a6b1a163337447c39fa2006c336bd"
+      },
+      "bg": {
+        "file": "dct-anime-bg.onnx",
+        "bytes": 5887580,
+        "sha256": "6b85ea34d6ad6c7303f22722dba2911c1dc027bfc2f0570cb5c254b78467777f"
+      },
+      "mask": {
+        "file": "dct-mask.png",
+        "bytes": 15383,
+        "sha256": "db055f79338dc3345cfbaf64f54ebc92abbdffa340edb0b190816c662e09300d"
+      },
+      "box": 288,
+      "ratio": 0.75
     }
   ]
 }
