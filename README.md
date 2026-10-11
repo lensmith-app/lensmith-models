@@ -24,6 +24,16 @@ in the same form and size. Any H and W work; multiples of 4 are best.
   0.75, scaled to `box` = 288 px); same input/output format at 288×288. Blend it back with
   `dct-mask.png` (288×288 greyscale) through the inverse transform.
 
+**Trackers** (`"trackers"` in `models.json`) — downloaded when a script uses `lens.hands` or `lens.pose`:
+
+| id | What | File |
+|---|---|---|
+| `hands` | 21 points per hand plus gestures | gesture_recognizer.task |
+| `pose` | 33 body points | pose_landmarker_lite.task |
+
+These are Google MediaPipe Tasks bundles, unchanged, run with MediaPipe Tasks Vision (Android) and
+`@mediapipe/tasks-vision` (Studio).
+
 ## Credits and licences
 
 **Lensmith is non-commercial.** These models are only used under non-commercial terms.
@@ -40,3 +50,7 @@ in the same form and size. Any H and W work; multiples of 4 are best.
   (`damo/cv_unet_person-image-cartoon*_compound-models`) — **Apache License 2.0**.
 
 Converted to ONNX with `tools/export.py` and `tools/dct_export.py` (outputs checked against the originals).
+
+- Trackers: **MediaPipe** Gesture Recognizer and Pose Landmarker (lite) by Google
+  ([google-ai-edge/mediapipe](https://github.com/google-ai-edge/mediapipe)), from
+  `storage.googleapis.com/mediapipe-models` — **Apache License 2.0**.
