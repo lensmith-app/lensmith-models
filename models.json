@@ -125,6 +125,15 @@
       "bytes": 5777746,
       "sha256": "59929e1d1ee95287735ddd833b19cf4ac46d29bc7afddbbf6753c459690d574a",
       "licence": "Apache-2.0 (Google MediaPipe)"
+    },
+    {
+      "id": "face-skin",
+      "name": "Face skin finding",
+      "description": "Which pixels are face skin, hair, body skin, clothes and so on (MediaPipe multi-class selfie segmenter), so face paint stays off hands, hair and objects",
+      "file": "selfie_multiclass_256x256.tflite",
+      "bytes": 16371837,
+      "sha256": "c6748b1253a99067ef71f7e26ca71096cd449baefa8f101900ea23016507e0e0",
+      "licence": "Apache-2.0 (Google MediaPipe)"
     }
   ]
 }

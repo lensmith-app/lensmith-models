@@ -30,8 +30,9 @@ in the same form and size. Any H and W work; multiples of 4 are best.
 |---|---|---|
 | `hands` | 21 points per hand plus gestures | gesture_recognizer.task |
 | `pose` | 33 body points | pose_landmarker_lite.task |
+| `face-skin` | Which pixels are face skin (also hair, body skin, clothes, background, others), for face paint | selfie_multiclass_256x256.tflite |
 
-These are Google MediaPipe Tasks bundles, unchanged, run with MediaPipe Tasks Vision (Android) and
+These are Google MediaPipe models, unchanged, run with MediaPipe Tasks Vision (Android) and
 `@mediapipe/tasks-vision` (Studio).
 
 ## Credits and licences
@@ -51,6 +52,6 @@ These are Google MediaPipe Tasks bundles, unchanged, run with MediaPipe Tasks Vi
 
 Converted to ONNX with `tools/export.py` and `tools/dct_export.py` (outputs checked against the originals).
 
-- Trackers: **MediaPipe** Gesture Recognizer and Pose Landmarker (lite) by Google
+- Trackers: **MediaPipe** Gesture Recognizer, Pose Landmarker (lite) and the multi-class selfie segmenter by Google
   ([google-ai-edge/mediapipe](https://github.com/google-ai-edge/mediapipe)), from
   `storage.googleapis.com/mediapipe-models` — **Apache License 2.0**.
